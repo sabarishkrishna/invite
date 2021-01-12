@@ -11,12 +11,42 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-.pic{
-  background-image: url(invite.jpg);
-  width: 100%;
+@media screen and (width: 356px){
+  img{
+   height: 70% !important;
+   width: 100%;
+  }
+
+.centered{
+  position: absolute;
+  color: black;
+  top: 100px;
+  font-size: 10px !important;
+  left: 30%;
+  font-family: 'Permanent Marker', cursive;
+  padding-bottom: 40px !important;
+  }
+
 }
 
+/*.pic{
+  background-image: url(invite.jpg); 
+  width: 100%;
+}*/
+.responsive{
+  width: 100%;
+  height: auto;
+}
 
+.centered{
+  position: absolute;
+  color: black;
+  top: 10px;
+  font-size: 20px;
+  left: 30%;
+  font-family: 'Permanent Marker', cursive;
+  padding-bottom: 400px;
+  }
 
 h1 {
   color: #66BFBF;
